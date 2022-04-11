@@ -9,7 +9,7 @@
 ### whois
 Определяет номер автономной системы, к которой принадлежит ip адрес<br>
 Пример вывода для `whois -h whois.cymru.com — '-v 126.56.78.3'`:<br><br>
-  `AS    | IP          | BGP Prefix    | CC | Registry | Allocated | AS Name`
+  `AS    | IP          | BGP Prefix    | CC | Registry | Allocated | AS Name`<br>
   `17858 | 124.56.78.3 | 124.56.0.0/13 | KR | apnic | 2005-12-21 | POWERVIS-AS-KR LG POWERCOMM, KR`
 ***
 ## Работа скрипта
