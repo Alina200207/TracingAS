@@ -8,7 +8,7 @@
   `traceroute -I vk.com`
 ### whois
 Определяет номер автономной системы, к которой принадлежит ip адрес<br>
-Пример вывода для `whois -h whois.cymru.com — '-v 126.56.78.3'`<br>
+Пример вывода для `whois -h whois.cymru.com — '-v 126.56.78.3'`:<br><br>
   `AS    | IP          | BGP Prefix    | CC | Registry | Allocated | AS Name`
   `17858 | 124.56.78.3 | 124.56.0.0/13 | KR | apnic | 2005-12-21 | POWERVIS-AS-KR LG POWERCOMM, KR`
 ***
@@ -17,4 +17,4 @@
 С помощью traceroute получает ip адреса, а затем для каждого из них получает номер автономной системы и страну, используя утилиту whois.<br>
 На выходе выдает таблицу с ip адресами, номерами автономных систем и страной(а также региональным регистратором).
 ![Example](https://github.com/Alina200207/TracingAS/blob/main/animation.gif)
-![Example]()
+![Example2](https://github.com/Alina200207/TracingAS/blob/main/animation%20(1).gif)
